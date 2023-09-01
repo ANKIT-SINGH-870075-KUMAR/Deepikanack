@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nack- Home Page</title>
+    <link rel="stylesheet" type="text/css" href="Css/slick.css">
+    <link rel="stylesheet" type="text/css" href="Css/slick-theme.css">
+    <link rel="stylesheet" href="Css/Job.css">
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <div class="header_Section">
+        <h5>Get 10% off on your first order! Use the code "Welcome10"</h5>
+    </div>
+    <!-- Header Section End -->
+
+    <!-- Navbar Section Start -->
+    <div class="navbar_Section">
+        <section class="section1">
+            <ul class="nav-list">
+                <li><a href="#">Shop Now</a></li>
+                <li><a href="#">Health Experts</a></li>
+                <li><a href="#">Naked Way <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#">Nack Journals <i class="fa-solid fa-angle-down"></i></a></li>
+                <li class="mobile_about"><a href="#">About Us</a></li>
+                <button class="mark" onclick="hidebtn()">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </button>
+            </ul>
+            <button class="bar" onclick="menubtn()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </section>
+        <section class="section2">
+            <img class="logo" src="image/logo.png" alt="logo">
+            <img class="logo1" src="image/logo1.png" alt="logo">
+        </section>
+        <section class="section3">
+            <ul>
+                <li class="laptop_about"><a href="#">About Us</a></li>
+            </ul>
+            <div class="icon1">
+                <i class="fa fa-regular fa-user"></i>
+            </div>
+            <div class="icon2">
+                <i class="fa fa-solid fa-cart-shopping"></i>
+            </div>
+        </section>
+    </div>
+    <!-- Navbar Section End -->
+
+    <!-- banner Section -->
+    <div class="banner-background">
+        <div class="banner-slider">
+            <div class="mySlides fade bg1" style="width: 100%">
+                <div class="center">
+                    <h1>Rapid Recovery. Effective Hydration</h1>
+                    <p>Boost performance and Hydration with a unique blend of full-spectrum Essential Amino Acid and
+                        electrolytes</p>
+                    <div class="banner-btn">
+                        <a href="#">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade bg2" style="width: 100%">
+                <div class="center">
+                    <h1>Stronger Than The Summer Sun!</h1>
+                    <p>Protect your skin from the harmful UV rays this summer with nature's strongest antioxidant -
+                        Astaxanthin</p>
+                    <div class="banner-btn">
+                        <a href="#">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade bg3" style="width: 100%">
+                <div class="center">
+                    <h1>Beyond The Yoga Mat</h1>
+                    <p>Yoga practitioners and trainers share the benefits of Yoga on and off the mat</p>
+                    <div class="banner-btn">
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        </div>
+        <div class="dot-bg" style="text-align: center">
+            <span class="dot" onclick="CurrentSlide(1)"></span>
+            <span class="dot" onclick="CurrentSlide(2)"></span>
+            <span class="dot" onclick="CurrentSlide(3)"></span>
+        </div>
+    </div>
+
+    <!-- Slide Container Start -->
+    <div class="slide">
+        <div class="title">
+            <h1>Choose Your Favourite</h1>
+        </div>
+        <div class="SlideContainer">
+            <div class="slide-bg multiple-items">
+                <img src="https://nack.life/cdn/shop/files/choose_your_fav_9c6ba076-3ac3-4bb3-ab24-e03329ecbf64.jpg?v=1692271535"
+                    alt="..." />
+                <img src="https://nack.life/cdn/shop/files/vegan-plant-protein-powder-nack-india-min_750x_1000x_9fe870d1-dcb5-439f-a696-2219a36f7fca.webp?v=1656932664"
+                    alt="..." />
+                <img src="https://nack.life/cdn/shop/files/nack-astaxanthin-antioxidant-immunity-boost-1-min.jpg?v=1656933817"
+                    alt="..." />
+                <img src="https://nack.life/cdn/shop/files/shaker_choose_your_fav_1.jpg?v=1682506598" alt="..." />
+                <img src="https://nack.life/cdn/shop/files/tsk_home_page_1.jpg?v=1680075128" alt="..." />
+            </div>
+        </div>
+    </div>
+    <!-- Slide Container End -->
+
+    <!-- Alternate Section Start -->
+    <div class="alternate">
+        <div class="alt-bg a1">
+            <div class="left">
+                <h1 id="h1">Essential Fuel With Hydrating electrolytes</h1>
+                <p>A potent blend of EAAS with 3.5g leucine per serving, and highly bioavailable electrolytes in
+                    pocket-sized sachets - convenient and effective fuel to maximise your performance and hydration</p>
+                <button class="btn">READ MORE</button>
+            </div>
+            <div class="right">
+                <img src="https://cdn.shopify.com/s/files/1/0611/8123/1340/files/EAA_Home_page.jpg?v=1692272449"
+                    alt="...">
+            </div>
+        </div>
+        <div class="alt-bg a2">
+            <div class="left">
+                <h1 id="h2">Developed By Sports Nutrition Experts</h1>
+                <p>Nack's Whey Protein is expertly formulated to fuel your workouts boost muscle growth. enhance
+                    recovery and support weight</p>
+                <button class="btn">READ MORE</button>
+            </div>
+            <div class="right">
+                <img src="https://cdn.shopify.com/s/files/1/0611/8123/1340/files/Home_Page_Image-2.jpg?v=1682403841"
+                    alt="...">
+            </div>
+        </div>
+        <div class="alt-bg a3">
+            <div class="left">
+                <h1 id="h3">Perfectly Balanced Amino Acids</h1>
+                <p>Our 100% plant based powder is formulated to fuel your body with pure protein. By blending naturally
+                    sourced yellow peas with whole grain rice. this formula provides a complete essential amino acid
+                    profile</p>
+                <button class="btn">READ MORE</button>
+            </div>
+            <div class="right">
+                <img src="https://cdn.shopify.com/s/files/1/0611/8123/1340/files/Nack_campaign_20220751.jpg?v=1657707413"
+                    alt="...">
+            </div>
+        </div>
+        <div class="alt-bg a4">
+            <div class="left">
+                <h1 id="h4">Nature's Strongest antioxidant</h1>
+                <p>Boost your immune system with nature's most powerful antioxidant. Astaxanthin. Its unique and strong
+                    cellular protection capacity allows it to protect each cell against free radicals and oxidative
+                    stress.</p>
+                <button class="btn">READ MORE</button>
+            </div>
+            <div class="right">
+                <img src="https://cdn.shopify.com/s/files/1/0614/9472/2786/files/nack-astaxanthin-image-e1629383887781-min_0b91c8a7-af4f-4d11-a873-ac7d6da3cc36.jpg?v=1643433835"
+                    alt="...">
+            </div>
+        </div>
+        <div class="alt-bg a5">
+            <div class="left">
+                <h1 id="h5">Meet Our Experts</h1>
+                <p>Searching for an expert within nutrition, fitness or mental health? look no further. Our best in
+                    class experts are just one click away and ready to support you from the comfort of your home</p>
+                <button class="btn">READ MORE</button>
+            </div>
+            <div class="right">
+                <img src="https://cdn.shopify.com/s/files/1/0614/9472/2786/files/meet-our-health-experts-at-nack-india-min_1.jpg?v=1643433860"
+                    alt="...">
+            </div>
+        </div>
+    </div>
+    <!-- Alternate Section End -->
+
+    <!-- Truly Section Start -->
+    <div class="trulyContainer">
+        <div class="truly">
+            <h1>The Pursuit Of</h1>
+            <h1>Truly Naked</h1>
+            <p>No odd ingredient combinations. No questionable scientific reports. No false claims or hidden agendas.
+                Just carefully selected natural active ingredients, always backed by science. Born in Sweden and raised
+                in India, our journey started in 2020 with the purpose to make the complex world of supplements easy to
+                understand, access and benefit from.</p>
+            <a href="#">LEARN MORE ABOUT OUR PURSUIT</a>
+        </div>
+    </div>
+    <!-- Truly Section End -->
+
+    <!-- Journal Section Start -->
+    <div class="journalContainer">
+        <div class="title">
+            <h1>The Nack journal</h1>
+        </div>
+        <div class="cardContainer">
+            <div class="card">
+                <div class="upper">
+                    <img src="https://nack.life/cdn/shop/articles/desktopcover_1000x.jpg?v=1690803407" alt="...">
+                </div>
+                <div class="lowwer">
+                    <div class="low1">
+                        <div class="link">
+                            <a href="#">ATHETES</a>
+                            <a href="#">COMMUNITY</a>
+                            <a href="#">RUNNING</a>
+                        </div>
+                        <h1>The Starting Line: Running Tips For Beginners</h1>
+                    </div>
+                    <div class="low2">
+                        <p>Running is more than just putting one foot in front of the other; it's a journey of
+                            self-discovery, endurance, and empowerment. From the brisk morning jogs of beginners to
+                            the...</p>
+                    </div>
+                    <div class="low3">
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="upper">
+                    <img src="https://nack.life/cdn/shop/articles/yoga_day_journal-desktop_1000x.jpg?v=1687346234"
+                        alt="...">
+                </div>
+                <div class="lowwer">
+                    <div class="low1">
+                        <div class="link">
+                            <a href="#">COMMUNITY</a>
+                            <a href="#">INTERNATIONALYOGADAY</a>
+                            <a href="#">MINDFULNESS</a>
+                            <a href="#">YOG</a>
+                        </div>
+                        <h1>Beyond The Yoga Mat</h1>
+                    </div>
+                    <div class="low2">
+                        <p>Content warning: The following article mentions mental illness and eating disorders. We
+                            associate Yoga with physical postures, breathing exercises, and meditation - all things
+                            practised on a mat. However, the...</p>
+                    </div>
+                    <div class="low3">
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="upper">
+                    <img src="https://nack.life/cdn/shop/articles/Passion-for-Progress-Desktop_1000x.jpg?v=1685529026"
+                        alt="...">
+                </div>
+                <div class="lowwer">
+                    <div class="low1">
+                        <div class="link">
+                            <a href="#">COMMUNITY</a>
+                            <a href="#">FITNESSINSPIRATION</a>
+                            <a href="#">FITNESS</a>
+                            <a href="#">TRAINERS</a>
+                        </div>
+                        <h1>Passion For Progress: Practices Fitness Trainers Swear By</h1>
+                    </div>
+                    <div class="low2">
+                        <p>How many of us, at some point in our lives, believed that success and greatness belong to the
+                            few gifted ones? That there are prerequisites to greatness some people are just born with.
+                            When you listen to the great ones though, you realise they were once ordinary.</p>
+                    </div>
+                    <div class="low3">
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Journal Section End -->
+
+    <!-- Footer Section Start -->
+    <div class="footerContainer">
+        <div class="foot1">
+            <div class="f1">
+                <img src="image/logo.png" alt="...">
+            </div>
+            <div class="f2">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="f3">
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Shipping</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Nack Active</a></li>
+                    <li><a href="#">Nack Beauty</a></li>
+                    <li><a href="#">Nack Health</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Refund policy</a></li>
+                </ul>
+            </div>
+            <div class="f4">
+                <form>
+                    <h1>Stay in Touch</h1>
+                    <input type="email" placeholder="Enter email">
+                    <input type="checkbox"> <span>I have read and accepted the Nack privacy policy</span>
+                    <button type="submit">JOIN NOW</button>
+                </form>
+            </div>
+        </div>
+        <div class="foot2">
+            <h1>© 2023 Nack RIGHTS RESERVED</h1>
+        </div>
+    </div>
+    <!-- Footer Section End -->
+
+    <!-- Whatsapp Section Start -->
+    <div class="top">
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <!-- Whatsapp Section End -->
+
+    <!-- Judge Section Start -->
+    <div class="Judeg">
+        <h4><a href="#"><i class="fa-solid fa-star"></i> Judge.me Reviews</a></h4>
+    </div>
+    <!-- Judge Section End -->
+    <!-- Javascript File -->
+    <script src="https://kit.fontawesome.com/06dd6ad078.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/job.js"></script>
+</body>
+
+</html>
